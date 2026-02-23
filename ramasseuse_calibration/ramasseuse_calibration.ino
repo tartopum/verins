@@ -27,7 +27,7 @@
 // Assigner une des valeurs precedentes et recharger le programme sur l'Arduino.
 // Puis consulter le moniteur Serie.
 // *****************
-byte mode = CALIBRATION_VERIN_G;
+byte mode = CALIBRATION_POTAR_CABINE;
 
 Multi_Channel_Relay actuator_left_relay;
 Multi_Channel_Relay actuator_right_relay;

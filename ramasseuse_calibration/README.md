@@ -39,6 +39,10 @@ exactes du potentiomètre de cabine et donc qu'on considère des intervalles lar
 Commander le vérin pour le placer à ses positions extrêmes et noter les valeurs
 correspondantes affichées dans le moniteur Série (en haut à droite du logiciel Arduino).
 
+**ATTENTION** si vous dépliez ou repliez trop le vérin, le moteur risque de forcer et le
+fusible de sauter. Le programme de calibration ne détecte pas cela et n'émettra pas de
+signal sonore d'alerte.
+
 ### Calibration inactive
 
 Par défaut, le programme est dans le mode `CALIBRATION_INACTIVE`, qui ne fait rien.
